@@ -15,6 +15,12 @@ class Song
     @@artist
   end 
   
+  @@artists = [] 
+  
+  def self.artists
+    @@artists.uniq
+  end
+  
   def self.genre
     @@genre
   end 
