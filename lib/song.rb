@@ -19,7 +19,7 @@ class Song
     @@genre
   end 
   
-  
+  @@genres = []
   
   attr_accessor :name, :artist, :genre 
 
