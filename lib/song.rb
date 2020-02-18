@@ -1,8 +1,14 @@
+
+
 class Song 
   @@count = 0 
   
   def self.count
     @@count 
+  end 
+  
+  def self.name
+    @@name
   end 
   
   def self.artist 
@@ -25,5 +31,5 @@ end
   
 end 
 
-song.count
+
 
